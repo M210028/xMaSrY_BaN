@@ -2,9 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="xMaSrY_BaN",
-    version="1.0.1",
+    version="1.0.2",
     packages=find_packages(),
-    py_modules=["xMaSrY_BaN"],
     install_requires=[
         "requests",
         "pycryptodome",
@@ -12,6 +11,7 @@ setup(
         "cachetools"
     ],
     author="xMaSrY",
-    description="Python utility library",
-    python_requires=">=3.9",
+    description="xMaSrY_BaN Library",
+    long_description="xMaSrY_BaN Library",
+    long_description_content_type="text/plain",
 )
