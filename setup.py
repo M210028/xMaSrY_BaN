@@ -1,9 +1,14 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="xMaSrY_BaN",
-    version="1.0.2",
-    packages=find_packages(),
+    version="1.0.3",
+    py_modules=[
+        "xMaSrY_BaN",
+        "MajorLogin_pb2",
+        "MajorLogin_res_pb2",
+        "GetLoginData_res_pb2"
+    ],
     install_requires=[
         "requests",
         "pycryptodome",
