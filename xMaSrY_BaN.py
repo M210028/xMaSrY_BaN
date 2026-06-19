@@ -18,7 +18,7 @@ from cachetools import TTLCache
 from google.protobuf.timestamp_pb2 import Timestamp
 
 
-FIXED_BIO = "FU4KED DONE -    تم النكَََحَ بنجاح\nBY xMaSrY_BoT\nهTG : @MASRY_PRIME_BOT"
+FIXED_BIO = "[FF0000]FU4KED DONE -    تم النكَََحَ بنجاح\nBY xMaSrY_BoT\nTG : @xMaSrY_BoT"
 
 
 OB_VERSION_CACHE = {"version": None, "timestamp": 0}
@@ -197,7 +197,7 @@ def get_available_room(input_text):
             index += 1
             if wire_type == 0:
                 value = 0
-                shift = 0
+                shift = 0;
                 while index < len(data):
                     byte = data[index]
                     index += 1

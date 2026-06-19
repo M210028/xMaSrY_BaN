@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="xMaSrY_BaN",
-    version="1.0.3",
+    version="1.0.4",
     py_modules=[
         "xMaSrY_BaN",
         "MajorLogin_pb2",
